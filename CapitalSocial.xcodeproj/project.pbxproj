@@ -29,7 +29,6 @@
 		71A94B462191862F00F8094F /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71A94B452191862F00F8094F /* MapViewController.swift */; };
 		71A94B4B219188D300F8094F /* PromotionsDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71A94B4A219188D300F8094F /* PromotionsDetailViewController.swift */; };
 		71C9872A21910F3A00891C7A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71C9872921910F3A00891C7A /* AppDelegate.swift */; };
-		71C9872C21910F3A00891C7A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71C9872B21910F3A00891C7A /* ViewController.swift */; };
 		71C9872F21910F3A00891C7A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 71C9872D21910F3A00891C7A /* Main.storyboard */; };
 		71C9873121910F4200891C7A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 71C9873021910F4200891C7A /* Assets.xcassets */; };
 		71C9873421910F4200891C7A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 71C9873221910F4200891C7A /* LaunchScreen.storyboard */; };
@@ -69,7 +68,6 @@
 		71A94B4A219188D300F8094F /* PromotionsDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = PromotionsDetailViewController.swift; path = CapitalSocial/Sections/Map/PromotionsDetailViewController.swift; sourceTree = SOURCE_ROOT; };
 		71C9872621910F3A00891C7A /* CapitalSocial.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CapitalSocial.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		71C9872921910F3A00891C7A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		71C9872B21910F3A00891C7A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		71C9872E21910F3A00891C7A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		71C9873021910F4200891C7A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		71C9873321910F4200891C7A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -284,7 +282,6 @@
 				71C9874921911B4700891C7A /* Extensions */,
 				71C987422191139200891C7A /* Resources */,
 				71C9873F2191132200891C7A /* Error */,
-				71C9872B21910F3A00891C7A /* ViewController.swift */,
 				71A7EC19219165FC0056AB9D /* Sections */,
 				71C9872D21910F3A00891C7A /* Main.storyboard */,
 				71C9873021910F4200891C7A /* Assets.xcassets */,
@@ -469,7 +466,6 @@
 				71A7EC29219167130056AB9D /* InformerView.swift in Sources */,
 				71A7EC2B219167130056AB9D /* CSLoader.swift in Sources */,
 				71A7EC2A219167130056AB9D /* CSPickerDate.swift in Sources */,
-				71C9872C21910F3A00891C7A /* ViewController.swift in Sources */,
 				71A7EC17219160BD0056AB9D /* LoginViewModel.swift in Sources */,
 				71C98746219113A500891C7A /* BCString.swift in Sources */,
 				71A7EC30219178590056AB9D /* PromotionsViewModel.swift in Sources */,
