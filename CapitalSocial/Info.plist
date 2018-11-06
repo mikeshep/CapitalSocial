@@ -10,8 +10,44 @@
 	<string>$(PRODUCT_BUNDLE_IDENTIFIER)</string>
 	<key>CFBundleInfoDictionaryVersion</key>
 	<string>6.0</string>
+	<key>NSCameraUsageDescription</key>
+	<string>The camera is need to scann QR codes</string>
 	<key>CFBundleName</key>
 	<string>$(PRODUCT_NAME)</string>
+    <key>NSLocationAlwaysUsageDescription</key>
+    <string>Program requires GPS to track cars and job orders</string>
+    <key>NSLocationAlwaysAndWhenInUseUsageDescription</key>
+    <string>Program requires GPS to track cars and job orders</string>
+    <key>NSLocationWhenInUseUsageDescription</key>
+    <string>Program requires GPS to track cars and job orders</string>
+
+	<key>NSAppTransportSecurity</key>
+	<dict>
+		<key>NSExceptionAllowsInsecureHTTPLoads</key>
+		<true/>
+		<key>NSAllowsArbitraryLoads</key>
+		<true/>
+		<key>NSAllowsLocalNetworking</key>
+		<true/>
+		<key>NSExceptionDomains</key>
+		<dict>
+			<key>agentemovil.pagatodo.com/AgenteMovil.svc</key>
+			<string></string>
+			<key>agentemovil.pagatodo.com</key>
+			<dict>
+				<key>NSExceptionAllowsInsecureHTTPLoads</key>
+				<true/>
+				<key>NSExceptionRequiresForwardSecrecy</key>
+				<false/>
+				<key>NSIncludesSubdomains</key>
+				<true/>
+				<key>NSTemporaryExceptionMinimumTLSVersion</key>
+				<string>TLSv1.0</string>
+				<key>NSAllowsArbitraryLoads</key>
+				<true/>
+			</dict>
+		</dict>
+	</dict>
 	<key>CFBundlePackageType</key>
 	<string>APPL</string>
 	<key>CFBundleShortVersionString</key>

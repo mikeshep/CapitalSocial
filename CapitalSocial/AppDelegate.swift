@@ -13,9 +13,23 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
     var window: UIWindow?
 
+    static let tokenkey = "TOKEN"
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
+        
+        //Login session
+        if (UserDefaults.standard.string(forKey: AppDelegate.tokenkey) == nil){
+            let rootController: LoginViewController = UIStoryboard.storyboard(storyboard: .main).instantiateViewController()
+            let viewModel = LoginViewModel()
+            rootController.viewModel = viewModel
+            viewModel.view = rootController
+            self.window?.rootViewController = rootController
+            self.window?.makeKeyAndVisible()
+        }
+        UINavigationBar.appearance().isTranslucent = false
+        UINavigationBar.appearance().tintColor = CSColor.white
+        UINavigationBar.appearance().barTintColor = CSColor.primaryColor
         return true
     }
 
